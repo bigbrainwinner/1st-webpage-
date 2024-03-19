@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: "Roboto Condensed", sans-serif; */
+    font-family: "Roboto Condensed", sans-serif;
     font-family: "Anek latin", sans-serif;
+    
   
 
     
@@ -72,12 +73,12 @@ html, body{
 #butt{
     border: none;
     color: white;
-    background-color: orangered;
+    background-color: red;
 }
 
 
 .main .clam {
-    font-size: 150px;
+    font-size: 190px;
     font-weight: 300;
     text-transform: uppercase;
     position: absolute;
@@ -91,3 +92,67 @@ html, body{
     
 }
 
+.main .clam .image img {
+    
+ height: 440px;
+ width: 350px;
+ object-fit: cover;
+ object-position: left top;
+ border-radius: 20px;
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%) rotate(-30deg);
+   
+   
+}
+.main .clam .image  #balac {
+    
+    height: 440px;
+    width: 350px;
+    object-fit: cover;
+    object-position: 75% 50%;
+    border-radius: 20px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    transform: translate(-50%,-50%) rotate(-20deg);
+    
+}
+.main .clam .image  #green {
+    
+    height: 440px;
+    width: 350px;
+    object-fit: cover;
+    object-position: 75% 50%;
+    border-radius: 20px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%) rotate(-10deg);
+    
+    
+}
+.main .clam .image  #silver {
+    
+    height: 440px;
+    width: 350px;
+    object-fit: cover;
+    object-position: 15% 50%;
+    border-radius: 20px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+    
+}
