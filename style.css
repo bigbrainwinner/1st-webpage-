@@ -88,25 +88,29 @@ html, body{
     width: 100%;
     text-align: center;
     
-
     
+    
+}
+.main .clam #boot {
+    font-weight: 300;
+    font-style: italic;
 }
 
 .main .clam .image img {
     
- height: 440px;
- width: 350px;
- object-fit: cover;
- object-position: left top;
- border-radius: 20px;
-
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%,-50%);
-   transform: translate(-50%,-50%) rotate(-30deg);
-   
-   
+    height: 440px;
+    width: 350px;
+    object-fit: cover;
+    object-position: left top;
+    border-radius: 20px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%) rotate(-30deg);
+    
+    
 }
 .main .clam .image  #balac {
     
